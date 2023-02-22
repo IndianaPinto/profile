@@ -1,0 +1,70 @@
+body {
+  font-family: Garamond;
+  background-color: F2DEBA;
+  color: 1A120B;
+  padding: 5px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: Trebuchet MS;
+  color: C58940;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: DC5F00;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover{
+  color: 256D85
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: FFF5E4;
+  padding: 5px;
+  width: 700;
+  margin: 25px auto;
+  border-radius: 10%;
+  border: 1px solid #eaeaea
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 560px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
